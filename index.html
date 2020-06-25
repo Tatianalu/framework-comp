@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4976ce4271.js" crossorigin="anonymous"></script>
+    <title>Comprar libros</title>
+</head>
+<body>
+    <!-- Menú-->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo"><img class="logo" src="imagen/logo2.png" alt="logo"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li></li>
+                <li><a href=""><i class="fas fa-align-justify"></i>Categorías</a></li>
+                <li><a href=""><i class="fas fa-user-alt"></i>Mi cuenta</a></li>
+                <li><a href=""><i class="fas fa-heart"></i>lista de deseos</a></li>
+                <li><a href=""><i class="fas fa-shopping-cart"></i>Mi carrito</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section>
+        <!-- Cargando pagina-->
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+              <div class="circle-clipper left">
+                <div class="circle"></div>
+              </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+            </div>
+        </div>
+        <!-- Bannner-->
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href=""><img src="imagen/hombres.jpg"></a>
+            <a class="carousel-item" href=""><img src="imagen/narnia.jpg"></a>
+            <a class="carousel-item" href=""><img src="imagen/principito.jpg"></a>
+            <a class="carousel-item" href=""><img src="https://lorempixel.com/800/400/food/4"></a>
+          </div>
+        <!-- Separador --><div class="divider" id="sep"></div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 m9 l10">
+                    <div id="categoria" class="section scrollspy">
+                        <!-- Categoria de libros-->
+                        <div class="collection">
+                            <a href="" class="collection-item">Libros infantiles</a>
+                            <a href="" class="collection-item">Libros infantiles</a>
+                            <a href="" class="collection-item">Libros infantiles</a>
+                            <a href="" class="collection-item">Libros infantiles</a>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="col hide-on-small-only m3 l2">
+                    <!-- Scrollspy - Puntadores de la pagina-->
+                  <ul class="section table-of-contents">
+                    <li><a href="#categoria">Categorias</a></li>
+                    <li><a href="#librosin">Libros infantiles</a></li>
+                    <li><a href="#recomendados">Libros recomendados</a></li>
+                  </ul>
+                </div>
+            </div>
+
+            <div id="librosin" class="section scrollspy">
+                <h4 class="center-align">Libros infantiles</h4>
+                <!-- Card imagen- Ficha de libros-->
+                <div class="row">
+                    <div class="col s3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="libro" src="imagen/EL-OSITO-MÁGICO.jpg" alt="EL OSITO MÁGICO">
+                                <span class="card-title">El osito mágico</span>
+                            </div>
+                            <div class="card-content">
+                                <p>ALDÍN, EL OSITO MÁGICO</p>
+                                <p>$17.000</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/wings.jpg" alt="MOON RISING (WINGS OF FIRE, BOOK 6)">
+                            <span class="card-title">Moon Rising</span>
+                        </div>
+                        <div class="card-content">
+                            <p>MOON RISING (WINGS OF FIRE, BOOK 6)</p>
+                            <p>$13.200</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/blancanieves.jpg" alt="BLANCANIEVES Y LOS SIETE ENANITOS ">
+                            <span class="card-title">Blancanieves</span>
+                        </div>
+                        <div class="card-content">
+                            <p>BLANCANIEVES Y LOS SIETE ENANITOS</p>
+                            <p>$19.900</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/doctora.jpg" alt="EL OSITO MÁGICO">
+                            <span class="card-title">Doctora juguetes</span>
+                        </div>
+                        <div class="card-content">
+                            <p>DOCTORA JUGUETES. VENTANAS MÁGICAS</p>
+                            <p>$19.900</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/wonder.jpg" alt="EL OSITO MÁGICO">
+                            <span class="card-title">Wonder</span>
+                        </div>
+                        <div class="card-content">
+                            <p>WONDER. TODOS SOMOS ÚNICOS</p>
+                            <p>$37.000</p>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/kylie.png" alt="EL OSITO MÁGICO">
+                            <span class="card-title">Kylie Jean</span>
+                        </div>
+                        <div class="card-content">
+                            <p>KYLIE JEAN. REINA DE LA FIESTA</p>
+                            <p>$19.900</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/lagota.jpg" alt="EL OSITO MÁGICO">
+                            <span class="card-title">La gota de agua</span>
+                        </div>
+                        <div class="card-content">
+                            <p>LA GOTA DE AGUA</p>
+                            <p>$19.900</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="libro" src="imagen/inteligente.jpg" alt="EL OSITO MÁGICO">
+                            <span class="card-title">Soy inteligente</span>
+                        </div>
+                        <div class="card-content">
+                            <p>SOY INTELIGENTE</p>
+                            <p>$18.900</p>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        </div>
+        <div class="divider" id="sep"></div>
+        <div id="recomendados" class="section scrollspy"></div>
+            <!-- Card Texto - Recomendados-->
+            <div class="row">
+                <div class="col s12">
+                <div class="card darken-1" id="cont"> 
+                    <div class="card-content white-text">
+                    <span class="card-title">Recomendados</span>
+                    <span class="card-title">Cosquillas y a la cama</span>
+                    <p>Un libro-juego para la hora de ir a la cama que ha causado sensación este año, y que descubrimos gracias a la
+                        maravillosa selección de cuentos imprescindibles para bebés de Cristina Saraldi y Paloma Balandis.</p>
+                    <p>Conejito se ha lavado los dientes, su pijama ya está preparado. Da una palmada y se lo pondrá.
+                        Jörg Mühle ha creado un magnífico y divertido  ritual con el que llevar a Conejito a la cama: dar palmadas, colocar la almohada, decir abracadabra, hacer cosquillas, acariciar la espalda…</p>
+                    </div>
+                    <div class="card-action">
+                    <a href="">Ver libro</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>   
+        <div class="divider" id="sep"></div>
+        <!-- form - Suscripción a la pagina-->
+        <form action="">
+            <div class="container">
+            
+                <div class="row">
+                    <div class="col s6" id="con">
+                        <p>Registrate para recibir ofertas y promociones</p>
+                        <label for="aceptar">
+                            <input type="checkbox" name="aceptar">
+                            <span>Acepta <a href="">términos y condiciones</a> </span>
+                        </label>
+                        <div class="input-field col s6">
+                            
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Suscribete</label>
+                            <a href=""><i class="fas fa-paper-plane"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+        
+    
+    </section>
+    <!-- Pie de pagina-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <!--iconos - redes sociales -->
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, options);
+        });
+    </script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.carousel');
+                var instances = M.Carousel.init(elems);
+            });
+
+            var instance = M.Carousel.init({
+                fullWidth: true
+            });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+</body>
+
+</html>

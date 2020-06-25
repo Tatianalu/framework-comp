@@ -1,0 +1,30 @@
+footer{
+    margin-bottom: 0px;
+}
+.logo{
+    width: 140px;
+    margin-left: 25px;
+}
+
+.libro{
+    height: 250px;
+}   
+
+i{
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;
+}
+
+#con{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#sep{
+    margin: 20px;
+}
+
+#cont{
+    background-color: #ee6e73;
+}
